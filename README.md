@@ -1,7 +1,12 @@
 # Bolsa de Valores - Aplicação Shiny
+![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![Shiny](https://img.shields.io/badge/Shiny-1F77B4?style=for-the-badge&logo=rstudio&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![dplyr](https://img.shields.io/badge/dplyr-1A162D?style=for-the-badge&logo=r&logoColor=white)
 
 Aplicação web interativa para análise de dados da bolsa de valores, desenvolvida em R com o framework Shiny.
 
+<img width="1855" height="909" alt="image" src="https://github.com/user-attachments/assets/bb787ec5-e91d-41c2-b4ae-3e7e24f87d2a" />
 <img width="1811" height="872" alt="Screenshot_2" src="https://github.com/user-attachments/assets/b4ea979c-b802-4317-b239-7e1efb91ba49" />
 
 ## Funcionalidades
