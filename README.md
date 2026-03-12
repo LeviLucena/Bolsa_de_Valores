@@ -6,7 +6,7 @@
 
 Aplicação web interativa para análise de dados da bolsa de valores, desenvolvida em R com o framework Shiny.
 
-<img width="1855" height="909" alt="image" src="https://github.com/user-attachments/assets/bb787ec5-e91d-41c2-b4ae-3e7e24f87d2a" />
+<img width="1889" height="774" alt="image" src="https://github.com/user-attachments/assets/d4cfe47b-6266-44d3-b12b-29a54eb83993" />
 <img width="1811" height="872" alt="Screenshot_2" src="https://github.com/user-attachments/assets/b4ea979c-b802-4317-b239-7e1efb91ba49" />
 
 ## Funcionalidades
