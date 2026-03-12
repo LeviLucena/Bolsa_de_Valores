@@ -1,0 +1,294 @@
+/* ============================================================
+   styles.css — Tema escuro estilo terminal financeiro (B3)
+   ============================================================ */
+
+/* Reset e base */
+* { box-sizing: border-box; }
+
+body {
+  background-color: #0d0d1a;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', 'Inter', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header-banner {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  border-bottom: 2px solid #00d084;
+  padding: 18px 30px;
+  margin-bottom: 0;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-title {
+  color: #ffffff;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 0.5px;
+}
+
+.app-title span.b3 {
+  color: #00d084;
+}
+
+.app-subtitle {
+  color: #8a8a9a;
+  font-size: 0.82rem;
+  margin: 2px 0 0 0;
+}
+
+/* Conteúdo principal */
+.main-content {
+  padding: 20px;
+}
+
+/* Tabs */
+.nav-tabs {
+  border-bottom: 1px solid #2a2a3e;
+}
+
+.nav-tabs > li > a {
+  color: #a0a0b0;
+  background-color: #1a1a2e;
+  border: 1px solid #2a2a3e;
+  border-radius: 4px 4px 0 0;
+  margin-right: 4px;
+  transition: all 0.2s ease;
+}
+
+.nav-tabs > li > a:hover {
+  background-color: #252540;
+  color: #ffffff;
+  border-color: #00d084;
+}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover {
+  background-color: #0f3460;
+  color: #00d084;
+  border-color: #00d084;
+  font-weight: 600;
+}
+
+.tab-content {
+  background-color: #12122a;
+  border: 1px solid #2a2a3e;
+  border-top: none;
+  padding: 20px;
+  border-radius: 0 0 6px 6px;
+}
+
+/* Filtros */
+.filtros-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: flex-end;
+  background-color: #1a1a2e;
+  border: 1px solid #2a2a3e;
+  border-radius: 6px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+}
+
+.filtro-item {
+  flex: 1;
+  min-width: 180px;
+}
+
+/* Labels dos inputs */
+label {
+  color: #a0a0c0 !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Inputs de data */
+.input-daterange .input-group {
+  background-color: #252540;
+  border: 1px solid #3a3a5c;
+  border-radius: 4px;
+}
+
+input[type="text"] {
+  background-color: #252540 !important;
+  color: #e0e0e0 !important;
+  border: 1px solid #3a3a5c !important;
+}
+
+/* Checkboxes */
+.checkbox-inline input[type="checkbox"] {
+  accent-color: #00d084;
+}
+
+/* Slider */
+.irs--shiny .irs-bar {
+  background-color: #00d084;
+  border-top-color: #00d084;
+  border-bottom-color: #00d084;
+}
+
+.irs--shiny .irs-handle {
+  border-color: #00d084;
+  background-color: #00d084;
+}
+
+.irs--shiny .irs-from,
+.irs--shiny .irs-to,
+.irs--shiny .irs-single {
+  background-color: #00d084;
+  color: #0d0d1a;
+  font-weight: 700;
+}
+
+/* KPI Cards */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.kpi-card {
+  flex: 1;
+  min-width: 160px;
+  background-color: #1a1a2e;
+  border: 1px solid #2a2a3e;
+  border-radius: 8px;
+  padding: 16px 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 20px rgba(0, 208, 132, 0.15);
+}
+
+.kpi-card.card-alta {
+  border-left: 3px solid #00d084;
+}
+
+.kpi-card.card-baixa {
+  border-left: 3px solid #ff4b4b;
+}
+
+.kpi-ticker {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1px;
+}
+
+.kpi-preco {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 6px 0 4px;
+}
+
+.kpi-variacao {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.kpi-range {
+  font-size: 0.72rem;
+  color: #6a6a8a;
+  margin-top: 8px;
+}
+
+/* Tabela de resumo */
+.table-container {
+  overflow-x: auto;
+}
+
+.table {
+  background-color: #1a1a2e;
+  color: #e0e0e0;
+  border-color: #2a2a3e;
+  width: 100%;
+}
+
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #16162c;
+}
+
+.table-hover > tbody > tr:hover {
+  background-color: #1f1f40;
+}
+
+.table > thead > tr > th {
+  background-color: #0f0f20;
+  color: #00d084;
+  border-bottom: 2px solid #00d084;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.78rem;
+  letter-spacing: 0.5px;
+}
+
+/* Info box */
+.info-box {
+  background-color: #1a1a2e;
+  border-left: 3px solid #4a9eff;
+  border-radius: 4px;
+  padding: 10px 16px;
+  margin-top: 16px;
+  color: #8a8ab0;
+  font-size: 0.82rem;
+}
+
+/* Botões do relatório */
+.botoes-relatorio {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.btn-download {
+  background-color: #00d084 !important;
+  color: #0d0d1a !important;
+  border: none !important;
+  font-weight: 600 !important;
+  padding: 8px 20px !important;
+  border-radius: 4px !important;
+  transition: background-color 0.2s ease !important;
+}
+
+.btn-download:hover {
+  background-color: #00b872 !important;
+}
+
+/* Section title */
+.section-title h3 {
+  color: #00d084;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0 0 14px 0;
+  border-bottom: 1px solid #2a2a3e;
+  padding-bottom: 6px;
+}
+
+/* HR */
+hr {
+  border-color: #2a2a3e;
+  margin: 20px 0;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: #0d0d1a; }
+::-webkit-scrollbar-thumb { background: #3a3a5c; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #5a5a8a; }
