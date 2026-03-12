@@ -8,6 +8,7 @@
 library(shiny)
 library(plotly)
 library(tidyr)
+library(DT)
 
 # Carregar módulos e dados
 source("R/mock_data.R")
