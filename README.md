@@ -2,7 +2,7 @@
 
 Aplicação web interativa para análise de dados da bolsa de valores, desenvolvida em R com o framework Shiny.
 
-![Preview](https://github.com/LeviLucena/Bolsa_de_Valores/assets/34045910/eb85bf90-f647-4c14-926e-caebb5dd5cd9)
+<img width="1811" height="872" alt="Screenshot_2" src="https://github.com/user-attachments/assets/b4ea979c-b802-4317-b239-7e1efb91ba49" />
 
 ## Funcionalidades
 
@@ -44,13 +44,7 @@ shiny::runApp("app.R")
 
 ## Screenshots
 
-![Preços](https://github.com/LeviLucena/Bolsa_de_Valores/assets/34045910/da250b4a-fe8e-4fd2-a8f7-73e5573a70e1)
-
-![Volume](https://github.com/LeviLucena/Bolsa_de_Valores/assets/34045910/e75dfdc1-df6e-4d95-a15d-7c2b7c8ee751)
-
-![Correlação](https://github.com/LeviLucena/Bolsa_de_Valores/assets/34045910/06f71af7-1239-4a83-a8d3-cc80aae399a5)
-
-![Volatilidade](https://github.com/LeviLucena/Bolsa_de_Valores/assets/34045910/dc7ff6fc-7828-4374-bee4-8898e4fd3d8f)
+<img width="1842" height="897" alt="Screenshot_3" src="https://github.com/user-attachments/assets/2b409938-0392-4af5-8037-80eb0d5bc503" />
 
 ## Licença
 
